@@ -51,8 +51,19 @@ if sel==1:
         quit()
 elif sel==2:
     print("Saldo disponível: %s" %(m))
-    fl=input("Selecione ENTER para fechar operação ")
-    if fl==str:
+    print("Prentende levantar dinheiro?\n1- Sim 2- Não ")
+    lvt=int(input())
+    if lvt==1:
+        levantar=int(input("Insira o montante a levantar: "))
+        if levantar>m:
+            print("A quantia que está a tentar levantar é superior ao saldo disponível na conta\nA CANCELAR OPERAÇÃO")
+            sleep(2)
+            quit()
+        print("Retire o seu dinheiro")
+        sleep(2)
+        quit()
+    elif lvt==2:
+        print("A fechar operação")
         sleep(0.5)
         quit()
 elif sel==3:
