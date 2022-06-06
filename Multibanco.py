@@ -97,7 +97,8 @@ elif sel==4:
     tr=int(input("Insira o montante a transferir:"))
     if tr>m:
         print("A quantia excede o saldo disponível na conta")
-        sleep(1.5)
+        print("A ENCERRAR OPERAÇÃO")
+        sleep(2)
         quit()
     conta=int(input("Insira o número da conta a transferir dinheiro: "))
     sleep(1)
