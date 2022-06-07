@@ -12,8 +12,5 @@ while True:
     print(choice(lado))
     print("")
     print("-----------")
-    if fl==str:
-        print(choice(lado))
-        continue
     
     
