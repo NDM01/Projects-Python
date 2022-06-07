@@ -6,8 +6,10 @@ print("Insira o cartão")
 sleep(1.3)
 password=getpass.getpass("PIN:")
 if password.isnumeric():
+    sleep(1.5)
     print("PIN Correto")
 else:
+    sleep(1)
     print("PIN INVÁLIDO")
     print("A CANCELAR OPERAÇÃO...")
     sleep(1)
