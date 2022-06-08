@@ -1,5 +1,4 @@
 from time import sleep
-from tokenize import Number
 
 tmp=int(input("Insira a temperatura em graus: "))
 f = tmp * 1.8 + 32
