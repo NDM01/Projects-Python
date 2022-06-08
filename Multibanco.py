@@ -82,6 +82,12 @@ elif sel==3:
           print("A CANCELAR OPERAÇÃO")
           sleep(1)
           quit()
+      elif mb>m:
+          print("O montante excede o saldo disponível na conta")
+          sleep(1)
+          print("A CANCELAR OPERAÇÃO")
+          sleep(1)
+          quit()
       card= random.randint(123456789,987654321)
       print("A gerar o cartão...")
       sleep(2)
