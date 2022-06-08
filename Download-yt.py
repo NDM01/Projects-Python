@@ -1,4 +1,3 @@
-# Este código não funciona no VisualStudioCode
 import youtube_dl
   
 ydl_opts = {}
@@ -14,4 +13,4 @@ while (channel == int(1)):
   
     dwl_vid()
     channel = int(input("1 para fazer outro download \n0 para fechar "))
-    
+
