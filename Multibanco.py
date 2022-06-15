@@ -97,7 +97,7 @@ elif sel==3:
       print("|  %s               |" %(card))
       print("|             Montante:%s€ |" %(mb))
       print("|__________________________|")
-      fl=input("Selecione ENTER para fechar operação ")
+      fl=input("\nSelecione ENTER para fechar operação ")
       if fl==str:
           sleep(1)
           quit()    
