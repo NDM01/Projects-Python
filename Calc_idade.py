@@ -10,7 +10,6 @@ def calculateAge(born):
         birthday = born.replace(year = today.year) 
   
     
-    
     except ValueError:  
         birthday = born.replace(year = today.year, 
                   month = born.month + 1, day = 1) 
@@ -20,4 +19,4 @@ def calculateAge(born):
     else: 
         return today.year - born.year 
           
-print(calculateAge(date(teste, mes, dia)), "years")
+print(calculateAge(date(teste, mes, )), "years")
