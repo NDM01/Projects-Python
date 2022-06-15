@@ -6,7 +6,7 @@ val = 0
 
 eu = int(input("Insira a quantidade em euros: "))
 
-val = eu * dollar 
+val = eu * 0.96
 
 print("A converter...")
 
