@@ -1,7 +1,7 @@
 from time import sleep
 import random
 
-erro = 1
+erro = 0
 
 def acertou_palavra():
     print("Parabéns acertou na palavra!!")
