@@ -1,5 +1,3 @@
-from time import sleep
-
 prom = '25%'
 
 valor = int(input("Insira o montante da compra: "))
