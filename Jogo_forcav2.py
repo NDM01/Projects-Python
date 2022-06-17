@@ -4,8 +4,8 @@ import random
 erro = 1
 
 def acertou_palavra():
-    print("Parabén acertou na palavra!!")
-    print(" :)")
+    print("Parabéns acertou na palavra!!")
+    print(":)")
     sleep
     quit()
 
