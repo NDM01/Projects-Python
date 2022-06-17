@@ -28,6 +28,7 @@ print("----------------------------")
 print("1- Karaté       2- Futebol")
 print("3- Dança        4- Box")
 print("5- Natação      6- Ciclismo")
+print("7- Corrida      8- Escalada")
 print("----------------------------")
 
 resp = int(input("Insira a modalidade pretendida: "))
@@ -115,6 +116,18 @@ elif resp == 6:
         sleep(1)
         print("Nome: %s" %(nome))
         print("Número de processo: %s" %(processo))
+elif resp == 7:
+    print("Está inscrit@ em Corrida!")
+    print("A gerar número de processo...")
+    sleep(1)
+    print("Nome: %s" %(nome))
+    print("Número de processo: %s" %(processo))
+elif resp == 8:
+    print("Está inscrit@em Escalada")
+    print("A gerar número de processo...")
+    sleep(1)
+    print("Nome: %s" %(nome))
+    print("Número de processo: %s" %(processo))
 else:
     print("Modalidade inválida!")
     print("A encerrar operação...")
