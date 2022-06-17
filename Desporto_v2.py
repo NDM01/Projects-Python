@@ -123,7 +123,7 @@ elif resp == 7:
     print("Nome: %s" %(nome))
     print("Número de processo: %s" %(processo))
 elif resp == 8:
-    print("Está inscrit@em Escalada")
+    print("Está inscrit@ em Escalada")
     print("A gerar número de processo...")
     sleep(1)
     print("Nome: %s" %(nome))
