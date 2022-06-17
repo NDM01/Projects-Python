@@ -10,9 +10,9 @@ def acertou_palavra():
     quit()
 
 def mensagem_abertura():
-    print("*********************************")
+    print("**************************************")
     print("***Bem vindo ao jogo da Forca v2.0!***")
-    print("*********************************")
+    print("**************************************")
 
 mensagem_abertura()
 
@@ -20,7 +20,7 @@ print("A gerar palavra...")
 
 sleep(1)
 
-lista = ['gato','escola','kiwi','hospital','aluno','cola','pneu','barco','garraga','monitor','quadro','estrada','caneta','computador','carteira','mesa','carro','galinha','casa','mota','capacete','lancheira','janela','telhado','borracha','churrasco','luz','estojo']
+lista = ['gato','escola','kiwi','hospital','aluno','cola','pneu','barco','garrafa','monitor','quadro','estrada','caneta','computador','carteira','mesa','carro','galinha','casa','mota','capacete','lancheira','janela','telhado','borracha','churrasco','luz','estojo']
 
 pal = random.choice(lista)
 
