@@ -19,4 +19,4 @@ def calculateAge(born):
     else: 
         return today.year - born.year 
           
-print(calculateAge(date(teste, mes, )), "anos")
+print(calculateAge(date(teste, mes, dia)), "anos")
