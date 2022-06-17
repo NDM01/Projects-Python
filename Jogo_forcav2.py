@@ -24,8 +24,6 @@ lista = ['gato','escola','kiwi','hospital','aluno','cola','pneu','barco','garrag
 
 pal = random.choice(lista)
 
-print(pal)
-
 print("Lista de palavras:\n %s " %(lista))
 
 resp = input("Insira a resposta: ")
@@ -102,8 +100,7 @@ while resp != pal:
         quit()
         
 if resp == pal:
-#    print("Parabéns acertou!")  
-    acertou_palavra()  
+   acertou_palavra()  
 
 
 
