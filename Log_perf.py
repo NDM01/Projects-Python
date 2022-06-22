@@ -22,7 +22,6 @@ mes = int(input("Insira o mes: "))
 
 dia = int(input("Insira o dia: "))
 
-
 def calculateAge(born): 
     today = date.today() 
     try:  
