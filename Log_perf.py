@@ -7,7 +7,11 @@ import getpass
 nome = input("Insira o seu nome: ")
 
 gmail = input("Insira o seu gmail: ")
-ob = '@'
+ob = '@gmail.com'
+
+while not ob in gmail:
+    print("Gmail inválido!")
+    gmail = input("Insira o seu gmail: ")
 
 password = getpass.getpass("Insira a sua password: ")
 psl = list()
@@ -18,9 +22,6 @@ mes = int(input("Insira o mes: "))
 
 dia = int(input("Insira o dia: "))
 
-while not ob in gmail:
-    print("Gmail inválido!")
-    gmail = input("Insira o seu gmail: ")
 
 def calculateAge(born): 
     today = date.today() 
