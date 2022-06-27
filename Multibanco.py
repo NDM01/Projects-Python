@@ -69,7 +69,7 @@ elif sel==2:
         sleep(0.5)
         quit()
 elif sel==3:
-      mb=int(input("Limite máximo de carregamento: 20,00€\nLimite mínimo de carregamento: 10,00€\nInsira o montante a carregar no cartão MBNet "))
+      mb=int(input("Limite máximo de carregamento: 20,00€\nLimite mínimo de carregamento: 10,00€\nInsira o montante a carregar no cartão MBNet: "))
       if mb>20:
           print("Montante inválido\nExcedeu o limite por carregamento")
           sleep(0.5)
@@ -83,7 +83,7 @@ elif sel==3:
           sleep(1)
           quit()
       elif mb>m:
-          print("O montante excede o saldo disponível na conta")
+          print("O montante excede o saldo disponível na conta!")
           sleep(1)
           print("A CANCELAR OPERAÇÃO")
           sleep(1)
