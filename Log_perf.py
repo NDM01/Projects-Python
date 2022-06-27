@@ -71,4 +71,3 @@ print('Idade: ',calculateAge(date(teste, mes, dia)), "anos")
 print(f'Password: ', c * '*')
 
 print('--------------------------')
-
