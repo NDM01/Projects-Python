@@ -16,7 +16,7 @@ while not ob in gmail:
 password = getpass.getpass("Insira a sua password: ")
 psl = list()
 
-teste = int(input("Insira o ano: "))
+ano = int(input("Insira o ano: "))
 
 mes = int(input("Insira o mes: "))
 
@@ -66,7 +66,7 @@ print(f'Nome: {nome.title()}')
 
 print(f'Gmail: {gmail}')
 
-print('Idade: ',calculateAge(date(teste, mes, dia)), "anos")
+print('Idade: ',calculateAge(date(ano, mes, dia)), "anos")
 
 print(f'Password: ', c * '*')
 
