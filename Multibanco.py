@@ -1,5 +1,6 @@
 import random
 import getpass
+import os
 from time import sleep
 m= random.randrange(1,5000)
 print("Insira o cartão")
@@ -98,6 +99,7 @@ elif sel==3:
       print("|             Montante:%s€ |" %(mb))
       print("|__________________________|")
       fl=input("\nSelecione ENTER para fechar operação ")
+      print("\n" * os.get_terminal_size().lines)
       if fl==str:
           sleep(1)
           quit()    
