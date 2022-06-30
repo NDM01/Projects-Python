@@ -39,7 +39,6 @@ lista = {
     },
 }
 
-print()
 
 for tipo, gen in lista.items():
     print(f'{gen["tipo"]}:') 
