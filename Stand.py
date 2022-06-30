@@ -33,3 +33,4 @@ for tipo, gen in lista.items():
     for resposta, dados_resposta in gen['disponivel'].items():
         print(f'{resposta}:{dados_resposta}')
     print()
+
