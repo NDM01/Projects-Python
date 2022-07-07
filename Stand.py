@@ -1,4 +1,5 @@
 print('Carros e motas disponíveis para venda')
+print()
 
 
 
