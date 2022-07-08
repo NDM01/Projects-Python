@@ -27,7 +27,7 @@ block=int(0)
 sel=int(input("Selecione uma opção: "))
 while sel>=7 or sel==0:
      sel=int(input("Selecione uma opção: "))
-     block=block+1
+     block += 1
      if block>3:
          print("OPERAÇÃO ANULADA")
          sleep(1)
