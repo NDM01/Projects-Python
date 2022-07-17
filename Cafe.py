@@ -114,6 +114,10 @@ while True:
 
         print('A canceçaar operação')
 
+        sleep(1)
+
+        quit()
+
 
     
 
