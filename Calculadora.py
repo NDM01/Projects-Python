@@ -22,6 +22,8 @@ elif op == '-':
 elif op == '*':
     resultado = num1 * num2
     print(f'O resultado é: {resultado}')
+elif op == '/' and num2 == 0:
+    print(f'Operação inválida!')
 elif op == '/':
     resultado = num1 / num2
     print(f'O resultado é: {resultado}')
