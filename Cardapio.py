@@ -12,6 +12,6 @@ while True:
     if not sel.isnumeric:
         print('Produto inválido!')
         print('Insira o número de um produto válido!')
-        # return
+        quit() 
 
-#  print()
+print()
