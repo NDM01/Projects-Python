@@ -1,5 +1,3 @@
-from ast import For, While
-
 Soma= 0
 Somapos = 0
 Somaneg = 0
