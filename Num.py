@@ -4,6 +4,7 @@ Soma= 0
 Somapos = 0
 Somaneg = 0
 
+
 print('Insira a quantida de números: ')
 
 N = int(input())
@@ -18,18 +19,15 @@ while N < 0:
 I = 0
 
 for I in range(N):
-    
-        if N > 0:
-          
-          Soma = Soma + 1
-          
-          Somaneg = Somaneg + N
-        
-        elif N <= 0:
-          
-          Somapos = Somapos + 1
+  Num = int(input('Insira o número: '))
+  if Num < 0:
+    Somaneg = Somaneg + Num
+    Soma = Soma + 1
+  elif Num >= 0:
+    Somapos = Somapos + 1
 
-perc = Somaneg / Soma
+if Soma > 0:
+    perc = Somaneg / Soma
 
 percp = Somapos / N * 100
 
