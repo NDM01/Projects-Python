@@ -2,7 +2,6 @@ Soma= 0
 Somapos = 0
 Somaneg = 0
 
-
 print('Insira a quantida de números: ')
 
 N = int(input())
@@ -30,6 +29,4 @@ if Soma > 0:
 percp = Somapos / N * 100
 
 print('A média dos números negativos é', perc, 'e a percentagem de positivos é', percp)
-        
-
-    
+            
