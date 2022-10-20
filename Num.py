@@ -9,9 +9,7 @@ N = int(input())
 while N < 0:
   print('Número inválido!')
 
-  print('Insira o número: ')
-
-  N = int(input())
+  N = int(input('Insira o número: '))
 
 I = 0
 
