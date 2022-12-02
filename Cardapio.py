@@ -22,7 +22,7 @@ while l==True:
         print('Produto inválido!')
         print('Insira o número de um produto válido!')
         Return
-
+    
     # else:
 
     #     print('teste')
