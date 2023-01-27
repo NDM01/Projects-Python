@@ -3,6 +3,7 @@ from time import sleep
 
 def menu():
 
+    print("-----------------------------")
     print("1 - Consultar Voos")
     print("2 - Consultar Aviões")
     print("3 - Consultar Aeroportos")
@@ -10,17 +11,26 @@ def menu():
     print("5 - Consultar Tripulação")
     print("6 - Consultar Passageiros")
     print("7 - Sair")
-
+    print("-----------------------------")
+    
 
 print("Bem-Vindo!") 
 sleep(1)
 print("\n" * os.get_terminal_size().lines)
 
-while True:
+programa = True
+
+while programa == True:
     
     menu()
 
-    op=input("Selecione uma opção: ")
+    programa = False
+    
+    
+
+    
+
+
     
 
 
